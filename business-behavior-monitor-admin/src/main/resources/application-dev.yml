@@ -31,6 +31,7 @@ redis:
       retry-interval: 1000
       ping-interval: 60000
       keep-alive: true
+      data-base: 1
 
 mybatis:
   mapper-locations: classpath:/mybatis/mapper/*.xml
