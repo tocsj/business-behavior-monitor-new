@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6f6a8430-ac66-4ef5-bae5-9f0a83b213da" name="更改" comment="feat:gojs引入" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\JAVA\Javaweb\Maven\apache-maven-3.8.8" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\JAVA\Javaweb\Maven\apache-maven-3.8.8\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="11" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="34JCvFlu9lv5N5sAzFiIzh7Oqa0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.dev-ops: Compose 部署.executor": "Run",
+    "JUnit.ApiTest.test_log1.executor": "Debug",
+    "JUnit.ApiTest.test_log_01.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/JAVA/study-project/business-behavior-monitor/docs",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JAVA\study-project\business-behavior-monitor\docs" />
+      <recent name="D:\JAVA\study-project\business-behavior-monitor\business-behavior-monitor-test\src\main\resources" />
+      <recent name="D:\JAVA\study-project\business-behavior-monitor" />
+      <recent name="D:\JAVA\study-project\business-behavior-monitor\business-behavior-monitor-sdk\src\main\resources" />
+      <recent name="D:\JAVA\study-project\business-behavior-monitor\business-behavior-monitor-admin\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tkck.monitor.sdk.test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ApiTest.test_log_01">
+    <configuration name="ApiTest.test_log1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="business-behavior-monitor-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tkck.monitor.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tkck.monitor.test" />
+      <option name="MAIN_CLASS_NAME" value="com.tkck.monitor.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_log1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiTest.test_log_01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="business-behavior-monitor-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tkck.monitor.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tkck.monitor.test" />
+      <option name="MAIN_CLASS_NAME" value="com.tkck.monitor.test.ApiTest" />
+      <option name="METHOD_NAME" value="test_log_01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="business-behavior-monitor-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tkck.monitor.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="dev-ops: Compose 部署" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docs/dev-ops/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="lua.app" factoryName="Lua Application">
+      <option name="program" value="lua.exe" />
+      <option name="file" value="" />
+      <option name="workingDir" value="$PROJECT_DIR$/src/main/java" />
+      <option name="debuggerType" value="1" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ApiTest.test_log_01" />
+        <item itemvalue="JUnit.ApiTest.test_log1" />
+        <item itemvalue="Docker.dev-ops: Compose 部署" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="6f6a8430-ac66-4ef5-bae5-9f0a83b213da" name="更改" comment="" />
+      <created>1760922519491</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760922519491</updated>
+      <workItem from="1760922520660" duration="9804000" />
+      <workItem from="1760961028853" duration="19000" />
+      <workItem from="1761009087760" duration="2651000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat:create project">
+      <option name="closed" value="true" />
+      <created>1760922605846</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1760922605846</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat:admin init">
+      <option name="closed" value="true" />
+      <created>1760923316594</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1760923316594</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat:sdk init">
+      <option name="closed" value="true" />
+      <created>1760923446152</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1760923446152</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat:test init">
+      <option name="closed" value="true" />
+      <created>1760923864875</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760923864875</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat:project pom init">
+      <option name="closed" value="true" />
+      <created>1760923900479</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1760923900479</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat:log sdk">
+      <option name="closed" value="true" />
+      <created>1760952689232</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1760952689232</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat:gojs引入">
+      <option name="closed" value="true" />
+      <created>1761014628984</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1761014628984</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat:gojs引入">
+      <option name="closed" value="true" />
+      <created>1761014722085</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1761014722085</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat:create project" />
+    <MESSAGE value="feat:admin init" />
+    <MESSAGE value="feat:sdk init" />
+    <MESSAGE value="feat:test init" />
+    <MESSAGE value="feat:project pom init" />
+    <MESSAGE value="feat:log sdk" />
+    <MESSAGE value="feat:gojs引入" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:gojs引入" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/business-behavior-monitor-sdk/src/main/java/com/tkck/monitor/sdk/appender/CustomAppender.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/business-behavior-monitor-sdk/src/main/java/com/tkck/monitor/sdk/push/Impl/RedisPush.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
