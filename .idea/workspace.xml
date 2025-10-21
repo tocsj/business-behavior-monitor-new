@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f6a8430-ac66-4ef5-bae5-9f0a83b213da" name="更改" comment="feat:gojs引入" />
+    <list default="true" id="6f6a8430-ac66-4ef5-bae5-9f0a83b213da" name="更改" comment="feat:gojs引入">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/18bda8b8-3b34-4bc8-963a-3f7798ca7517.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/18bda8b8-3b34-4bc8-963a-3f7798ca7517.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/dev-ops/mysql/sql/business-behavior-monitor.sql" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev-ops/mysql/sql/business-behavior-monitor.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -63,12 +68,15 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/JAVA/study-project/business-behavior-monitor/docs",
+    "last_opened_file_path": "D:/JAVA/study-project/business-behavior-monitor/business-behavior-monitor-admin/src/main/resources/mybatis/mapper",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   },
@@ -83,11 +91,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JAVA\study-project\business-behavior-monitor\business-behavior-monitor-admin\src\main\resources\mybatis\mapper" />
+      <recent name="D:\JAVA\study-project\business-behavior-monitor\business-behavior-monitor-admin\src\main\resources\mybatis" />
+      <recent name="D:\JAVA\study-project\business-behavior-monitor\business-behavior-monitor-admin\src\main\java\com\tkck\monitor\types" />
       <recent name="D:\JAVA\study-project\business-behavior-monitor\docs" />
       <recent name="D:\JAVA\study-project\business-behavior-monitor\business-behavior-monitor-test\src\main\resources" />
-      <recent name="D:\JAVA\study-project\business-behavior-monitor" />
-      <recent name="D:\JAVA\study-project\business-behavior-monitor\business-behavior-monitor-sdk\src\main\resources" />
-      <recent name="D:\JAVA\study-project\business-behavior-monitor\business-behavior-monitor-admin\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.tkck.monitor.sdk.test" />
@@ -183,7 +191,8 @@
       <updated>1760922519491</updated>
       <workItem from="1760922520660" duration="9804000" />
       <workItem from="1760961028853" duration="19000" />
-      <workItem from="1761009087760" duration="2651000" />
+      <workItem from="1761009087760" duration="4005000" />
+      <workItem from="1761032932191" duration="1753000" />
     </task>
     <task id="LOCAL-00001" summary="feat:create project">
       <option name="closed" value="true" />
