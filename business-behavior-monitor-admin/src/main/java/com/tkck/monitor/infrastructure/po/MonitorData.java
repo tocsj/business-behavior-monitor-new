@@ -7,7 +7,9 @@ import java.util.Date;
 
 @Data
 public class MonitorData {
-   private Long monitorId;
+   private Long id;
+
+   private String monitorId;
 
    private String monitorName;
 

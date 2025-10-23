@@ -8,5 +8,7 @@ import java.util.List;
 
 @Mapper
 public interface IMonitorDataDao {
-    List<MonitorData> queryMonitorData();
+    List<MonitorData> queryMonitorDataList(MonitorData monitorDataReq);
+
+    void insert(MonitorData monitorDataReq);
 }

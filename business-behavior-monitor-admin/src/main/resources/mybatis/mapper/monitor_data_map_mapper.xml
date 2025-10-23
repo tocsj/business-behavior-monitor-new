@@ -9,5 +9,8 @@
         <result column="create_time" property="createTime"/>
         <result column="update_time" property="updateTime"/>
     </resultMap>
+    <select id="queryMonitorNameByMonitoryId" resultType="java.lang.String" parameterType="java.lang.String">
+        select monitor_name from monitor_data_map where monitor_id = #{monitorId}
+    </select>
 
 </mapper>
