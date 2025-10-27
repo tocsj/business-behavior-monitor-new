@@ -1,10 +1,12 @@
 package com.tkck.monitor.infrastructure.repository;
 
 import com.tkck.monitor.domain.model.entity.MonitorDataEntity;
+import com.tkck.monitor.domain.model.entity.MonitorDataMapEntity;
 import com.tkck.monitor.domain.model.valobj.GatherNodeExpressionVO;
 import com.tkck.monitor.domain.repository.IMonitorRepository;
 import com.tkck.monitor.infrastructure.dao.*;
 import com.tkck.monitor.infrastructure.po.MonitorData;
+import com.tkck.monitor.infrastructure.po.MonitorDataMap;
 import com.tkck.monitor.infrastructure.po.MonitorDataMapNode;
 import com.tkck.monitor.infrastructure.po.MonitorDataMapNodeField;
 import com.tkck.monitor.infrastructure.redis.IRedisService;
@@ -93,5 +95,18 @@ public class MonitorRepository implements IMonitorRepository {
 
         String cacheKey = Constants.RedisKey.monitor_node_data_count_key + monitorDataEntity.getMonitorId() + Constants.UNDERLINE + monitorDataEntity.getMonitorNodeId();
         redisService.incr(cacheKey);
+    }
+
+    @Override
+    public List<MonitorDataMapEntity> queryMonitorDataMapEntityList() {
+        List<MonitorDataMap> monitorDataList=monitorDataMapDao.queryMonitorDataMapEntityList();
+        List<MonitorDataMapEntity> monitorDataMapEntities = new ArrayList<>();
+        for (MonitorDataMap monitorDataMap : monitorDataList) {
+            monitorDataMapEntities.add(MonitorDataMapEntity.builder()
+                    .monitorId(monitorDataMap.getMonitorId())
+                    .monitorName(monitorDataMap.getMonitorName())
+                    .build());
+        }
+        return monitorDataMapEntities;
     }
 }

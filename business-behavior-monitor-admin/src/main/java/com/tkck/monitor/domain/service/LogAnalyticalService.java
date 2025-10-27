@@ -2,12 +2,15 @@ package com.tkck.monitor.domain.service;
 
 import com.alibaba.fastjson.JSONObject;
 import com.tkck.monitor.domain.model.entity.MonitorDataEntity;
+import com.tkck.monitor.domain.model.entity.MonitorDataMapEntity;
 import com.tkck.monitor.domain.model.valobj.GatherNodeExpressionVO;
 import com.tkck.monitor.domain.repository.IMonitorRepository;
+import com.tkck.monitor.infrastructure.dao.IMonitorDataMapDao;
 import com.tkck.monitor.types.Constants;
 import ognl.Ognl;
 import ognl.OgnlContext;
 import ognl.OgnlException;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -16,6 +19,8 @@ import java.util.List;
 public class LogAnalyticalService implements ILogAnalyticalService {
     @Resource
     private IMonitorRepository repository;
+    @Autowired
+    private IMonitorDataMapDao iMonitorDataMapDao;
 
     @Override
     public void doAnalytical(String systemName, String className, String methodName, List<String> logList) throws OgnlException {
@@ -63,5 +68,10 @@ public class LogAnalyticalService implements ILogAnalyticalService {
 
 
         }
+    }
+
+    @Override
+    public List<MonitorDataMapEntity> queryMonitorDataMapEntityList() {
+        return repository.queryMonitorDataMapEntityList();
     }
 }
