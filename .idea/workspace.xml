@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f6a8430-ac66-4ef5-bae5-9f0a83b213da" name="更改" comment="feat:监控列表接口实现和配置使用">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="6f6a8430-ac66-4ef5-bae5-9f0a83b213da" name="更改" comment="feat:监控渲染链路实现和配置使用">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/com/tkck/monitor/domain/repository/IMonitorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/com/tkck/monitor/domain/repository/IMonitorRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/com/tkck/monitor/domain/service/ILogAnalyticalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/com/tkck/monitor/domain/service/ILogAnalyticalService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/com/tkck/monitor/domain/service/LogAnalyticalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/com/tkck/monitor/domain/service/LogAnalyticalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/com/tkck/monitor/infrastructure/dao/IMonitorDataMapNodeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/com/tkck/monitor/infrastructure/dao/IMonitorDataMapNodeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/com/tkck/monitor/infrastructure/dao/IMonitorDataMapNodeLinkDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/com/tkck/monitor/infrastructure/dao/IMonitorDataMapNodeLinkDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/com/tkck/monitor/infrastructure/repository/MonitorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/com/tkck/monitor/infrastructure/repository/MonitorRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/com/tkck/monitor/trigger/http/MonitorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/java/com/tkck/monitor/trigger/http/MonitorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/resources/mybatis/mapper/monitor_data_map_node_link_mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/business-behavior-monitor-admin/src/main/resources/mybatis/mapper/monitor_data_map_node_link_mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/business-behavior-monitor-admin/src/test/java/com/tkck/monitor/test/trigger/MonitorControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/business-behavior-monitor-admin/src/test/java/com/tkck/monitor/test/trigger/MonitorControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="20251027-hrt-intf-monitor" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,39 +62,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Docker.dev-ops: Compose 部署.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ApiTest.test_log1.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.ApiTest.test_log_00.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ApiTest.test_log_01.executor&quot;: &quot;Debug&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.Application (1).executor&quot;: &quot;Debug&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/JAVA/study-project/business-behavior-monitor/business-behavior-monitor-admin/src/main/resources/mybatis/mapper&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.dev-ops: Compose 部署.executor": "Run",
+    "JUnit.ApiTest.test_log1.executor": "Debug",
+    "JUnit.ApiTest.test_log_00.executor": "Run",
+    "JUnit.ApiTest.test_log_01.executor": "Debug",
+    "JUnit.MonitorControllerTest.test_queryMonitorDataList.executor": "Run",
+    "JUnit.MonitorControllerTest.test_queryMonitorFlowMap.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.Application (1).executor": "Debug",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/JAVA/study-project/business-behavior-monitor/business-behavior-monitor-admin/src/main/resources/mybatis/mapper",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -110,30 +109,14 @@
       <recent name="D:\JAVA\study-project\business-behavior-monitor\business-behavior-monitor-admin\src\main\resources\mybatis" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.tkck.monitor.domain.model.valobj" />
       <recent name="com.tkck.monitor.trigger.http.dto" />
+      <recent name="com.tkck.monitor.domain.model.valobj" />
       <recent name="com.tkck.monitor.test" />
       <recent name="com.tkck.monitor.domain.model.entity" />
       <recent name="com.tkck.monitor.domain.service" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Application (1)">
-    <configuration name="ApiTest.test_log1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="business-behavior-monitor-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tkck.monitor.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tkck.monitor.test" />
-      <option name="MAIN_CLASS_NAME" value="com.tkck.monitor.test.ApiTest" />
-      <option name="METHOD_NAME" value="test_log1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ApiTest.test_log_00" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="business-behavior-monitor-test" />
       <extension name="coverage">
@@ -161,6 +144,22 @@
       <option name="PACKAGE_NAME" value="com.tkck.monitor.test" />
       <option name="MAIN_CLASS_NAME" value="com.tkck.monitor.test.ApiTest" />
       <option name="METHOD_NAME" value="test_log_01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonitorControllerTest.test_queryMonitorDataList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="business-behavior-monitor-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tkck.monitor.test.trigger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tkck.monitor.test.trigger" />
+      <option name="MAIN_CLASS_NAME" value="com.tkck.monitor.test.trigger.MonitorControllerTest" />
+      <option name="METHOD_NAME" value="test_queryMonitorDataList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -230,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MonitorControllerTest.test_queryMonitorDataList" />
         <item itemvalue="JUnit.MonitorControllerTest.test_queryMonitorFlowMap" />
         <item itemvalue="JUnit.MonitorControllerTest.test_queryMonitorDataMapEntityList" />
         <item itemvalue="JUnit.ApiTest.test_log_01" />
         <item itemvalue="JUnit.ApiTest.test_log_00" />
-        <item itemvalue="JUnit.ApiTest.test_log1" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +259,8 @@
       <workItem from="1761032932191" duration="2170000" />
       <workItem from="1761180667542" duration="5153000" />
       <workItem from="1761525047210" duration="1944000" />
-      <workItem from="1761527516418" duration="3373000" />
+      <workItem from="1761527516418" duration="3684000" />
+      <workItem from="1761555697911" duration="448000" />
     </task>
     <task id="LOCAL-00001" summary="feat:create project">
       <option name="closed" value="true" />
@@ -350,7 +350,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761527665465</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat:监控渲染链路实现和配置使用">
+      <option name="closed" value="true" />
+      <created>1761535473876</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1761535473876</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +398,8 @@
     <MESSAGE value="feat:orm基础配置" />
     <MESSAGE value="feat:监控中心接收测试工程上报数据解析" />
     <MESSAGE value="feat:监控列表接口实现和配置使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:监控列表接口实现和配置使用" />
+    <MESSAGE value="feat:监控渲染链路实现和配置使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:监控渲染链路实现和配置使用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
