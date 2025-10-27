@@ -3,6 +3,7 @@ package com.tkck.monitor.test.trigger;
 import com.alibaba.fastjson2.JSON;
 import com.tkck.monitor.trigger.http.MonitorController;
 import com.tkck.monitor.trigger.http.dto.MonitorDataMapDTO;
+import com.tkck.monitor.trigger.http.dto.MonitorFlowDataDTO;
 import com.tkck.monitor.types.Response;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
@@ -23,6 +24,12 @@ public class MonitorControllerTest {
     @Test
     public void test_queryMonitorDataMapEntityList() {
         Response<List<MonitorDataMapDTO>> response = monitorController.queryMonitorDataMapEntityList();
+        log.info("测试结果: {}", JSON.toJSONString(response));
+    }
+
+    @Test
+    public void test_queryMonitorFlowMap() {
+        Response<MonitorFlowDataDTO> response = monitorController.queryMonitorFlowMap("129009");
         log.info("测试结果: {}", JSON.toJSONString(response));
     }
 }

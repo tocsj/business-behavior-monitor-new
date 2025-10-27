@@ -1,6 +1,7 @@
 package com.tkck.monitor.domain.service;
 
 import com.tkck.monitor.domain.model.entity.MonitorDataMapEntity;
+import com.tkck.monitor.domain.model.valobj.MonitorTreeConfigVO;
 import ognl.OgnlException;
 
 import java.util.List;
@@ -11,4 +12,6 @@ public interface ILogAnalyticalService {
 
 
     List<MonitorDataMapEntity> queryMonitorDataMapEntityList();
+
+    MonitorTreeConfigVO queryMonitorFlowData(String monitorId);
 }

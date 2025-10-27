@@ -36,3 +36,9 @@ build/
 
 ### Mac OS ###
 .DS_Store
+/business-behavior-monitor-test/data/log/log-info-2025-10-20.0.log
+/data/log/log-info-2025-10-23.0.log
+/business-behavior-monitor-admin/data/log/log_error.log
+/data/log/log_error.log
+/business-behavior-monitor-admin/data/log/log_info.log
+/data/log/log_info.log

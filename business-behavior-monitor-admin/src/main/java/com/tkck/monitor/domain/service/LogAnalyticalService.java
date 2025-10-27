@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.tkck.monitor.domain.model.entity.MonitorDataEntity;
 import com.tkck.monitor.domain.model.entity.MonitorDataMapEntity;
 import com.tkck.monitor.domain.model.valobj.GatherNodeExpressionVO;
+import com.tkck.monitor.domain.model.valobj.MonitorTreeConfigVO;
 import com.tkck.monitor.domain.repository.IMonitorRepository;
 import com.tkck.monitor.infrastructure.dao.IMonitorDataMapDao;
 import com.tkck.monitor.types.Constants;
@@ -73,5 +74,10 @@ public class LogAnalyticalService implements ILogAnalyticalService {
     @Override
     public List<MonitorDataMapEntity> queryMonitorDataMapEntityList() {
         return repository.queryMonitorDataMapEntityList();
+    }
+
+    @Override
+    public MonitorTreeConfigVO queryMonitorFlowData(String monitorId) {
+        return repository.queryMonitorTreeConfigVO(monitorId);
     }
 }

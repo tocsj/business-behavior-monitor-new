@@ -3,6 +3,7 @@ package com.tkck.monitor.domain.repository;
 import com.tkck.monitor.domain.model.entity.MonitorDataEntity;
 import com.tkck.monitor.domain.model.entity.MonitorDataMapEntity;
 import com.tkck.monitor.domain.model.valobj.GatherNodeExpressionVO;
+import com.tkck.monitor.domain.model.valobj.MonitorTreeConfigVO;
 
 import java.util.List;
 
@@ -14,4 +15,6 @@ public interface IMonitorRepository {
     void saveMonitoryData(MonitorDataEntity monitorDataEntity);
 
     List<MonitorDataMapEntity> queryMonitorDataMapEntityList();
+
+    MonitorTreeConfigVO queryMonitorTreeConfigVO(String monitorId);
 }
