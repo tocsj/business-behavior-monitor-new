@@ -3,6 +3,7 @@ package com.tkck.monitor.domain.service;
 import com.alibaba.fastjson.JSONObject;
 import com.tkck.monitor.domain.model.entity.MonitorDataEntity;
 import com.tkck.monitor.domain.model.entity.MonitorDataMapEntity;
+import com.tkck.monitor.domain.model.entity.MonitorFlowDesignerEntity;
 import com.tkck.monitor.domain.model.valobj.GatherNodeExpressionVO;
 import com.tkck.monitor.domain.model.valobj.MonitorTreeConfigVO;
 import com.tkck.monitor.domain.repository.IMonitorRepository;
@@ -84,5 +85,10 @@ public class LogAnalyticalService implements ILogAnalyticalService {
     @Override
     public List<MonitorDataEntity> queryMonitorDataEntityList(MonitorDataEntity build) {
         return repository.queryMonitorDataEntityList(build);
+    }
+
+    @Override
+    public void updateMonitorFlowDesigner(MonitorFlowDesignerEntity monitorFlowDesignerEntity) {
+        repository.updateMonitorFlowDesigner(monitorFlowDesignerEntity);
     }
 }
